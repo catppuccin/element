@@ -33,6 +33,7 @@ If you are hosting an instance yourself or use Element Desktop, then this theme 
 - Windows: `%APPDATA%\$NAME\config.json`
 - Linux: `$XDG_CONFIG_HOME/$NAME/config.json` or `~/.config/$NAME/config.json`
 - macOS: `~/Library/Application Support/$NAME/config.json`
+
 where the `$NAME` is usually `Element`. If you use the `--profile $PROFILE` flag, then the `$NAME` becomes `Element-$PROFILE`. 
 
 ## 🙋 FAQ 
