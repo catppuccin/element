@@ -40,10 +40,13 @@ Then enable the "Support adding custom themes" option in the Labs section of the
 
 ## 🙋 FAQ 
 
+<<<<<<< HEAD
 -	Q: **_"How to change the font?"_**  
+=======
+-	Q: **_"How to change the font?"_**   
+>>>>>>> ed20ec2 (docs: answer json fix)
   **A:** Fonts can be changed by editing the `config.json` file in the following manner:
   ```json
-    ---
     "is_dark": true, 
     "fonts": {
         "faces": [
@@ -55,7 +58,6 @@ Then enable the "Support adding custom themes" option in the Labs section of the
             "general": "Inter, sans",
             "monospace": "'Courier New'"
           },
-   ---
   ```
 
 ## 💝 Thanks to
