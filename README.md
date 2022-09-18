@@ -40,7 +40,7 @@ Then enable the "Support adding custom themes" option in the Labs section of the
 
 ## 🙋 FAQ 
 
--	Q: **_"How to change the font?"_**
+-	Q: **_"How to change the font?"_**  
   **A:** Fonts can be changed by editing the `config.json` file in the following manner:
   ```json
     ---
