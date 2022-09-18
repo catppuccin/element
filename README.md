@@ -34,12 +34,14 @@ If you are hosting an instance yourself or use Element Desktop, then this theme 
 - Linux: `$XDG_CONFIG_HOME/$NAME/config.json` or `~/.config/$NAME/config.json`
 - macOS: `~/Library/Application Support/$NAME/config.json`
 
-where the `$NAME` is usually `Element`. If you use the `--profile $PROFILE` flag, then the `$NAME` becomes `Element-$PROFILE`. 
+where the `$NAME` is usually `Element`. If you use the `--profile $PROFILE` flag, then the `$NAME` becomes `Element-$PROFILE`.
+
+Then enable the "Support adding custom themes" option in the Labs section of the Settings. The themes will then appear in the Appearance tab of the Settings. 
 
 ## 🙋 FAQ 
 
 -	Q: **_"How to change the font?"_**
-	A: Fonts can be changed by editing the `config.json` file in the following manner:
+  **A:** Fonts can be changed by editing the `config.json` file in the following manner:
   ```json
     ---
     "is_dark": true, 
