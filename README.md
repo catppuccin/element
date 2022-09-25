@@ -21,10 +21,10 @@ There are several ways to install these themes.
 
 ### Use an instance of element which has `Labs` enabled
 
-If you use an instance of Element which has Labs enabled, head over to the Labs tab in Settings and turn on "Support adding custom themes". To add this theme, copy the theme JSON's URL into the "Custom theme URL" field. 
+If you use an instance of Element which has Labs enabled, head over to the Labs tab in Settings and turn on "Support adding custom themes". To add this theme, copy your preferred flavour's JSON's URL into the "Custom theme URL" field. Example:
 
 ```
-https://raw.githubusercontent.com/catppuccin/element/main/config.json
+https://raw.githubusercontent.com/catppuccin/element/main/themes/Catppuccin-mocha.json
 ```
 
 ### Self hosted Element or Element Desktop
