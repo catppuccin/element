@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/catppuccin/element/main/themes/Catppuccin-moch
 
 If you are hosting an instance yourself or use Element Desktop, then this theme can be added by placing the `config.json` file in Element's config directory. The possible locations are:
 - Windows: `%APPDATA%\$NAME\config.json`
-- Linux: `$XDG_CONFIG_HOME/$NAME/config.json` or `~/.config/$NAME/config.json`
+- Linux: `$XDG_CONFIG_HOME/$NAME/config.json` or `~/.config/$NAME/config.json` or `~/.var/app/im.riot.Riot/config/$NAME/config.json` if you are using the Flatpak version.
 - macOS: `~/Library/Application Support/$NAME/config.json`
 
 where the `$NAME` is usually `Element`. If you use the `--profile $PROFILE` flag, then the `$NAME` becomes `Element-$PROFILE`.
