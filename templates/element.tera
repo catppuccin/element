@@ -1,0 +1,54 @@
+---
+accent: lavender
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/Catppuccin-{{ flavor.identifier }}.json"
+---
+
+{%- set palette = flavor.colors -%}
+
+{
+  "name": "Catppuccin {{ flavor.name }}",
+  "is_dark": {{ flavor.dark }},
+  "colors": {
+    "accent-color": "#{{ palette[accent].hex }}",
+    "primary-color": "#{{ palette[accent].hex }}",
+    "warning-color": "#{{ palette.red.hex }}",
+    "alert": "#{{ palette.yellow.hex }}",
+    "sidebar-color": "#{{ palette.crust.hex }}",
+    "roomlist-background-color": "#{{ palette.mantle.hex }}",
+    "roomlist-text-color": "#{{ palette.text.hex }}",
+    "roomlist-text-secondary-color": "#{{ palette.base.hex }}",
+    "roomlist-highlights-color": "#{{ palette.surface1.hex }}",
+    "roomlist-separator-color": "#{{ palette.overlay1.hex }}",
+    "timeline-background-color": "#{{ palette.base.hex }}",
+    "timeline-text-color": "#{{ palette.text.hex }}",
+    "secondary-content": "#{{ palette.text.hex }}",
+    "tertiary-content": "#{{ palette.text.hex }}",
+    "timeline-text-secondary-color": "#{{ palette.subtext0.hex }}",
+    "timeline-highlights-color": "#{{ palette.mantle.hex }}",
+    "reaction-row-button-selected-bg-color": "#{{ palette.surface1.hex }}",
+    "menu-selected-color": "#{{ palette.surface1.hex }}",
+    "focus-bg-color": "#{{ palette.surface2.hex }}",
+    "room-highlight-color": "#{{ palette.sky.hex }}",
+    "togglesw-off-color": "#{{ palette.overlay2.hex }}",
+    "other-user-pill-bg-color": "#{{ palette.sky.hex }}",
+    "username-colors": [
+      "#{{ palette.mauve.hex }}",
+      "#{{ palette.maroon.hex }}",
+      "#{{ palette.peach.hex }}",
+      "#{{ palette.green.hex }}",
+      "#{{ palette.teal.hex }}",
+      "#{{ palette.sky.hex }}",
+      "#{{ palette.sapphire.hex }}",
+      "#{{ palette.lavender.hex }}"
+    ],
+    "avatar-background-colors": [
+      "#{{ palette.blue.hex }}",
+      "#{{ palette.mauve.hex }}",
+      "#{{ palette.green.hex }}"
+    ]
+  }
+}

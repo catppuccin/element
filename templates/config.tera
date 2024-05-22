@@ -1,0 +1,15 @@
+---
+whiskers:
+  version: 2.1.0
+---
+
+{
+  "settingDefaults": {
+    "custom_themes": [
+      {% for _, flavor in flavors %}
+      {{ read_file "../themes/Catppuccin-" ~ flavor.identifier ~ ".json" }}
+      {% endfor %}
+    ]
+  },
+  "show_labs_settings": true
+}
