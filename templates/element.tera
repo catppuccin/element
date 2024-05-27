@@ -1,7 +1,7 @@
 ---
 accent: lavender
 whiskers:
-  version: 2.1.0
+  version: "2.3.0"
   matrix:
     - flavor
   filename: "themes/Catppuccin-{{ flavor.identifier }}.json"

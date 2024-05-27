@@ -1,14 +1,15 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.3.0"
+  filename: "config.json"
 ---
-
 {
   "settingDefaults": {
     "custom_themes": [
-      {% for _, flavor in flavors %}
-      {{ read_file "../themes/Catppuccin-" ~ flavor.identifier ~ ".json" }}
-      {% endfor %}
+      {%- for _, flavor in flavors %}
+      {{ read_file(path="../themes/Catppuccin-" ~ flavor.identifier ~ ".json") | indent(prefix="      ") -}}
+      {% if not loop.last %},{% endif %}
+      {%- endfor %}
     ]
   },
   "show_labs_settings": true
