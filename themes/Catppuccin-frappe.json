@@ -1,11 +1,11 @@
 {
-  "name": "Catppuccin Frappe",
+  "name": "Catppuccin Frappé",
   "is_dark": true,
   "colors": {
     "accent-color": "#babbf1",
     "primary-color": "#babbf1",
     "warning-color": "#e78284",
-    "alert": "#faa81a",
+    "alert": "#e5c890",
     "sidebar-color": "#232634",
     "roomlist-background-color": "#292c3c",
     "roomlist-text-color": "#c6d0f5",
