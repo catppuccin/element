@@ -3,3 +3,4 @@ _default:
 
 build:
   whiskers templates/element.tera
+  whiskers templates/config.tera
