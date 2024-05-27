@@ -20,7 +20,7 @@ whiskers:
     "sidebar-color": "#{{ palette.crust.hex }}",
     "roomlist-background-color": "#{{ palette.mantle.hex }}",
     "roomlist-text-color": "#{{ palette.text.hex }}",
-    "roomlist-text-secondary-color": "#{{ palette.base.hex }}",
+    "roomlist-text-secondary-color": "#{{ palette.overlay2.hex }}",
     "roomlist-highlights-color": "#{{ palette.surface1.hex }}",
     "roomlist-separator-color": "#{{ palette.overlay1.hex }}",
     "timeline-background-color": "#{{ palette.base.hex }}",
