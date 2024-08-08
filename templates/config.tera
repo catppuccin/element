@@ -4,7 +4,7 @@ whiskers:
   filename: "config.json"
 ---
 {
-  "settingDefaults": {
+  "setting_defaults": {
     "custom_themes": [
       {%- for _, flavor in flavors %}
       {{ read_file(path="../themes/Catppuccin-" ~ flavor.identifier ~ ".json") | indent(prefix="      ") -}}
