@@ -7,7 +7,7 @@ whiskers:
   filename: "themes/catppuccin-{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
 ---
 {
-  "name": "Catppuccin {{ flavor.name }} {{ accent }}",
+  "name": "Catppuccin {{ flavor.name }} ({{ flavor.colors[accent].name }})",
   "is_dark": {{ flavor.dark }},
   "colors": {
     "accent-color": "#{{ flavor.colors[accent].hex }}",

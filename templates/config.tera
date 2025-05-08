@@ -7,7 +7,7 @@ whiskers:
   "setting_defaults": {
     "custom_themes": [
       {%- for _, flavor in flavors %}
-      {{ read_file(path="../themes/catppuccin-" ~ flavor.identifier ~ "/catppuccin-" ~ flavor.identifier ~ "-lavender.json") | indent(prefix="      ") -}}
+      {{ read_file(path="../themes/catppuccin-" ~ flavor.identifier ~ "/catppuccin-" ~ flavor.identifier ~ "-mauve.json") | indent(prefix="      ") -}}
       {% if not loop.last %},{% endif %}
       {%- endfor %}
     ]
