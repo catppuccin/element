@@ -1,16 +1,17 @@
 ---
 whiskers:
-  version: 2.4.0
+  version: 2.5.1
   matrix:
     - flavor
-  filename: "themes/Catppuccin-{{ flavor.identifier }}.json"
+    - accent
+  filename: "themes/catppuccin-{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
 ---
 {
-  "name": "Catppuccin {{ flavor.name }}",
+  "name": "Catppuccin {{ flavor.name }} {{ accent }}",
   "is_dark": {{ flavor.dark }},
   "colors": {
-    "accent-color": "#{{ lavender.hex }}",
-    "primary-color": "#{{ lavender.hex }}",
+    "accent-color": "#{{ flavor.colors[accent].hex }}",
+    "primary-color": "#{{ flavor.colors[accent].hex }}",
     "warning-color": "#{{ red.hex }}",
     "alert": "#{{ yellow.hex }}",
     "sidebar-color": "#{{ crust.hex }}",
