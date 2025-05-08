@@ -1,9 +1,9 @@
 {
-  "name": "Catppuccin Latte",
+  "name": "Catppuccin Latte mauve",
   "is_dark": false,
   "colors": {
-    "accent-color": "#7287fd",
-    "primary-color": "#7287fd",
+    "accent-color": "#8839ef",
+    "primary-color": "#8839ef",
     "warning-color": "#d20f39",
     "alert": "#df8e1d",
     "sidebar-color": "#dce0e8",

@@ -1,9 +1,9 @@
 {
-  "name": "Catppuccin Frappé",
+  "name": "Catppuccin Frappé maroon",
   "is_dark": true,
   "colors": {
-    "accent-color": "#babbf1",
-    "primary-color": "#babbf1",
+    "accent-color": "#ea999c",
+    "primary-color": "#ea999c",
     "warning-color": "#e78284",
     "alert": "#e5c890",
     "sidebar-color": "#232634",

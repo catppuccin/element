@@ -1,9 +1,9 @@
 {
-  "name": "Catppuccin Macchiato",
+  "name": "Catppuccin Macchiato sky",
   "is_dark": true,
   "colors": {
-    "accent-color": "#b7bdf8",
-    "primary-color": "#b7bdf8",
+    "accent-color": "#91d7e3",
+    "primary-color": "#91d7e3",
     "warning-color": "#ed8796",
     "alert": "#eed49f",
     "sidebar-color": "#181926",
