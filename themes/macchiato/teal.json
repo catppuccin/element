@@ -1,9 +1,9 @@
 {
-  "name": "Catppuccin Macchiato",
+  "name": "Catppuccin Macchiato (Teal)",
   "is_dark": true,
   "colors": {
-    "accent-color": "#b7bdf8",
-    "primary-color": "#b7bdf8",
+    "accent-color": "#8bd5ca",
+    "primary-color": "#8bd5ca",
     "warning-color": "#ed8796",
     "alert": "#eed49f",
     "sidebar-color": "#181926",

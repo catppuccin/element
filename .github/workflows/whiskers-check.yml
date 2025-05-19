@@ -1,0 +1,16 @@
+name: whiskers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# TODO: Add check for `templates/config.tera` once whiskers supports automatic single file checking
+jobs:
+  run:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    with:
+      args: templates/element.tera
+    secrets: inherit

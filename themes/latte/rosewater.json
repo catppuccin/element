@@ -1,9 +1,9 @@
 {
-  "name": "Catppuccin Latte",
+  "name": "Catppuccin Latte (Rosewater)",
   "is_dark": false,
   "colors": {
-    "accent-color": "#7287fd",
-    "primary-color": "#7287fd",
+    "accent-color": "#dc8a78",
+    "primary-color": "#dc8a78",
     "warning-color": "#d20f39",
     "alert": "#df8e1d",
     "sidebar-color": "#dce0e8",

@@ -2,11 +2,11 @@
   "setting_defaults": {
     "custom_themes": [
       {
-        "name": "Catppuccin Latte",
+        "name": "Catppuccin Latte (Mauve)",
         "is_dark": false,
         "colors": {
-          "accent-color": "#7287fd",
-          "primary-color": "#7287fd",
+          "accent-color": "#8839ef",
+          "primary-color": "#8839ef",
           "warning-color": "#d20f39",
           "alert": "#df8e1d",
           "sidebar-color": "#dce0e8",
@@ -45,11 +45,11 @@
         }
       },
       {
-        "name": "Catppuccin Frappé",
+        "name": "Catppuccin Frappé (Mauve)",
         "is_dark": true,
         "colors": {
-          "accent-color": "#babbf1",
-          "primary-color": "#babbf1",
+          "accent-color": "#ca9ee6",
+          "primary-color": "#ca9ee6",
           "warning-color": "#e78284",
           "alert": "#e5c890",
           "sidebar-color": "#232634",
@@ -88,11 +88,11 @@
         }
       },
       {
-        "name": "Catppuccin Macchiato",
+        "name": "Catppuccin Macchiato (Mauve)",
         "is_dark": true,
         "colors": {
-          "accent-color": "#b7bdf8",
-          "primary-color": "#b7bdf8",
+          "accent-color": "#c6a0f6",
+          "primary-color": "#c6a0f6",
           "warning-color": "#ed8796",
           "alert": "#eed49f",
           "sidebar-color": "#181926",
@@ -131,11 +131,11 @@
         }
       },
       {
-        "name": "Catppuccin Mocha",
+        "name": "Catppuccin Mocha (Mauve)",
         "is_dark": true,
         "colors": {
-          "accent-color": "#b4befe",
-          "primary-color": "#b4befe",
+          "accent-color": "#cba6f7",
+          "primary-color": "#cba6f7",
           "warning-color": "#f38ba8",
           "alert": "#f9e2af",
           "sidebar-color": "#11111b",

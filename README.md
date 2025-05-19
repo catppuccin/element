@@ -12,48 +12,77 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/element/main/assets/screenshot.webp"/>
+	<img src="./assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="./assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="./assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="./assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="./assets/mocha.webp"/>
+</details>
 
 ## Usage
 
-There are several ways to install these themes. 
+There are several ways to install these themes.
 
-### Use an instance of element which has `Labs` enabled
+### Use an instance of Element which has `Labs` enabled
 
-If you use an instance of Element which has Labs enabled, head over to the Labs tab in Settings and turn on "Support adding custom themes". To add this theme, copy your preferred flavour's JSON's URL into the "Custom theme URL" field. Example:
+If you use an instance of Element which has Labs enabled, head over to the Labs
+tab in Settings and turn on "Support adding custom themes".
+
+For example, to use Catppuccin Mocha Mauve, you can paste the following URL into the "Custom theme URL" field:
 
 ```
-https://raw.githubusercontent.com/catppuccin/element/main/themes/Catppuccin-mocha.json
+https://element.catppuccin.com/mocha/mauve.json
 ```
+
+See the [themes](./themes) directory for the available flavour and accent combinations.
 
 ### Self hosted Element or Element Desktop
 
-If you are hosting an instance yourself or use Element Desktop, then this theme can be added by placing the `config.json` file in Element's config directory. The possible locations are:
+If you are hosting an instance yourself or use Element Desktop, then this theme
+can be added by placing the [config.json](./config.json) file in Element's
+config directory. The possible locations are:
+
 - Windows: `%APPDATA%\$NAME\config.json`
 - Linux: `$XDG_CONFIG_HOME/$NAME/config.json` or `~/.config/$NAME/config.json` or `~/.var/app/im.riot.Riot/config/$NAME/config.json` if you are using the Flatpak version.
 - macOS: `~/Library/Application Support/$NAME/config.json`
 
 where the `$NAME` is usually `Element`. If you use the `--profile $PROFILE` flag, then the `$NAME` becomes `Element-$PROFILE`.
 
-Then enable the "Support adding custom themes" option in the Labs section of the Settings. The themes will then appear in the Appearance tab of the Settings. 
+Then enable the "Support adding custom themes" option in the Labs section of the
+Settings. The themes will then appear in the Appearance tab of the Settings.
 
-## 🙋 FAQ 
+## 🙋 FAQ
 
--	Q: **_"How to change the font?"_**  
-  **A:** Fonts can be changed by editing the `config.json` file in the following manner:
+- Q: **"How can I change the font?"** \
+  A: Fonts can be changed by editing the [config.json](./config.json) file in the following manner:
+
   ```json
-    "is_dark": true, 
-    "fonts": {
-        "faces": [
-                    {
-                        "font-family": "Inter",
-                        "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
-                    }
-                ],
-            "general": "Inter, sans",
-            "monospace": "'Courier New'"
-          },
+  "is_dark": true,
+  "fonts": {
+    "faces": [
+      {
+        "font-family": "Inter",
+        "src": [{"url": "/fonts/Inter.ttf", "format": "ttf"}]
+      }
+    ],
+    "general": "Inter, sans",
+    "monospace": "'Courier New'"
+  },
   ```
 
 ## 💝 Thanks to
