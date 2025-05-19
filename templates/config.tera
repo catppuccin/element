@@ -1,13 +1,13 @@
 ---
 whiskers:
-  version: 2.5.1
+  version: ^2.5.1
   filename: "config.json"
 ---
 {
   "setting_defaults": {
     "custom_themes": [
       {%- for _, flavor in flavors %}
-      {{ read_file(path="../themes/catppuccin-" ~ flavor.identifier ~ "/catppuccin-" ~ flavor.identifier ~ "-mauve.json") | indent(prefix="      ") -}}
+      {{ read_file(path="../themes/" ~ flavor.identifier ~ "/" ~ "mauve.json") | indent(prefix="      ") -}}
       {% if not loop.last %},{% endif %}
       {%- endfor %}
     ]
