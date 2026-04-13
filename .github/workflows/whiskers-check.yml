@@ -1,5 +1,4 @@
 name: whiskers
-
 on:
   workflow_dispatch:
   push:
@@ -8,10 +7,19 @@ on:
     branches: [main]
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Setup Whiskers
+        uses: catppuccin/setup-whiskers@v2
+      - name: Check
+        run: |
+          whiskers --check config.json templates/config.tera
+
   run:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
     with:
-      args: |
-        config.json templates/config.tera
-        templates/element.tera
+      args: templates/element.tera
     secrets: inherit
