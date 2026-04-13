@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  check:
+  check-config:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -18,7 +18,7 @@ jobs:
         run: |
           whiskers --check config.json templates/config.tera
 
-  run:
+  check-element:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
     with:
       args: templates/element.tera
